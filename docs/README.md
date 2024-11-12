@@ -5,9 +5,15 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0627.1 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHRMexe%2F32406271-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHRMexe%2F32406271-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHRMexe%2F32406271-NasDHSolutions.json)
+
+## [v.3.24.1112.0]() <sub><sup><sup>[⬇️OneDrive](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32411120-OneDrive.json) [⬇️GoogleStorage](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32411120-GoogleStorage.json) [⬇️NasDHSolutions](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32411120-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - HRM không lấy được tổng số ngày nghỉ phép năm
+- ☑: https://github.com/dh-hos/dhg.hospitalhrm/issues/9
+
+## [v.3.24.0627.1]()
 - 🐛: Fix lỗi ma_giuong_bak_ trong bảng chidinhcls
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/403
+
 ## [v.3.24.0627.0]()
 - 🐛: Fix lỗi ma_giuong_bak_ trong bảng chidinhcls
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/403
