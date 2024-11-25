@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.24.1124.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32411240-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32411240-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32411240-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: `HRM lấy sai số ngày nghỉ phép năm`
+- ☑: `https://github.com/dhhiswork/Loi/issues/19`
+
+![](https://i.imgur.com/qWFkk0j.png)
+
+## [v.3.24.1121.0]()
+- 🐛: `HRM không lấy sai số ngày nghỉ phép năm`
+- ☑: `https://github.com/dhhiswork/Loi/issues/19`
+
+![](https://i.imgur.com/3bHCFyW.png)
+
 ## [v.3.24.1112.1]() <sub><sup><sup>[⬇️OneDrive](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32411121-OneDrive.json) [⬇️GoogleStorage](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32411121-GoogleStorage.json) [⬇️NasDHSolutions](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32411121-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - HRM bị mất dữ liệu khám sức khỏe (BV Da Liễu)
 - ☑: https://github.com/dh-his/Ghi_Nhan_Loi/issues/39
