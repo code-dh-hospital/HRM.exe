@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0226.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32602260-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32602260-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32602260-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi load danh sách `[CĐHA chưa thực hiện]` khi phiếu TT/PT được lập không phải tại khoa CĐHA.
+![](https://lh3.googleusercontent.com/pw/AP1GczN7BKnx5WUc84s6RM9zfAg2pBV12edmw_kpeFYXU2sFPU0qbvDl_l81TL_zrTGjoggz-MHs2yPImUN8_dGYCUGSFoNQYi7gncyZ4Ia980p3jF6rh-3ZSUaifm-F_klSCH8jdxLCp_GivAuMzfoWP838=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/758
+
 ## [v.3.25.0419.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32504190-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32504190-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32504190-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - HRM: Bổ sung nhật ký khi xóa bảng chấm công
 ![](https://i.imgur.com/6rxINlJ.gif)
