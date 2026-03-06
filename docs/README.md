@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0306.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32603061-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32603061-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32603061-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi bảng kê tiền trực không lưu được.
+![](https://lh3.googleusercontent.com/pw/AP1GczNOv9AL1Py14OnloJkNoRIyEVznzED8BYctY8l9WTV1KVbn_jbBLb-LWVU-HbSzrTGMjCBuXqQoFeGdBWAgBSq1-Scne-owPfAr84Fxn7ZIkVBUHbM88TUuwD3hK9hPeazVacygvxBbOD1Sy5vrK0Xk=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/779
+
 ## [v.3.26.0306.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32603060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32603060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32603060-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi bảng kê tiền trực không lưu được.
