@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.1007.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610070-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610070-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610070-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Tích hợp chuẩn hóa giao diện bản quyền DH.HIS HRM (Nhân sự & Tiền lương) khi kích hoạt DHHIS_BANQUYEN
+- 🐛: Đồng bộ nhận diện thương hiệu DH.HIS, thanh trạng thái 4 ô logoDH và tiêu đề Form Home
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/34#issuecomment-47093 (hdhiswork/DUAN#34)
+- 📗: Không thay đổi CSDL
+- 📕: Chuẩn hóa nhận diện thương hiệu DH.HIS theo biến môi trường DHHIS_BANQUYEN = 1
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-34/debug-image-libraryapp-statusbar-thanhtrangthai-dhhis.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-34/debug-image-libraryapp-frmhome-tieude-12phanhe.png)
+
 ## [v.3.26.0911.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32609110-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32609110-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32609110-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Tích hợp cấu hình BuildZip|AnyCPU (xuất bin\BuildZip) + Pre/PostBuildEvent gọi visualstudio-external-tool.js; nhận Resources/Roo.Exe.dll.zip đóng gói tự động khi build Roo.Exe
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/845
