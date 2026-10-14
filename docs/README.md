@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.26.1014.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610140-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610140-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610140-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [HosHRM.DataAccess][HosHrm] Chuẩn hóa toàn diện xử lý OID theo TOLAPTRINH Issue #161 qua ClsSqlOidHelper (OTH.Common); đồng bộ cấu hình CSDL sequence id và xử lý xóa lương an toàn.
+- 🐛: [HosHRM.DataAccess][HosHrm] Khắc phục triệt để lỗi Thêm lương (not-null constraint id / InvalidCastException) và lỗi Xóa lương (operator does not exist: oid = numeric / thiếu bind objLuong.luong.oid) tại Tab Quá trình hưởng lương.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1043
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/161
+- 📗: CSDL bảng hrm.qthuongluong khôi phục thuộc tính DEFAULT nextval('hrm.qthuongluong_id_seq'::regclass) cho cột id. Cập nhật DLL liên quan: HosHRM.DataAccess, HosHrm. Thực hiện theo mô tả [Mô tả chuẩn hóa OID theo TOLAPTRINH 161 và sửa lỗi tab Lương HRM](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/HRM/Mo-ta-hrm-chuan-hoa-oid-va-sua-loi-tab-luong.md).
+- 📕: Mở phân hệ Quản lý Nhân sự HRM -> Quản lý nhân sự -> Hồ sơ nhân viên -> Tab Lương: Thao tác Thêm, Sửa, Xóa quá trình lương nhân viên hoạt động chính xác.
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1043/debug-image-hrm-frmmain-fullflow-main.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1043/debug-image-hrm-frmmain-fullflow.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1043/debug-image-hrm-frmnhanvien-tabluong-direct.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1043/debug-image-hrm-frmnhanvien-tester-proof.png)
+
 ## [v.3.26.1007.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610070-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610070-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610070-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Tích hợp chuẩn hóa giao diện bản quyền DH.HIS HRM (Nhân sự & Tiền lương) khi kích hoạt DHHIS_BANQUYEN
 - 🐛: Đồng bộ nhận diện thương hiệu DH.HIS, thanh trạng thái 4 ô logoDH và tiêu đề Form Home
