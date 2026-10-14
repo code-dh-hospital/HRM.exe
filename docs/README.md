@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.26.1014.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610141-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610141-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610141-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung 4 trường CCHN (Mã CCHN, Ngày cấp, Nơi cấp, Phạm vi hành nghề), form Quản lý tệp đính kèm nhân sự FrmDinhKemNhanVien (hồ sơ Bằng cấp, Chứng chỉ, HĐLĐ) kèm bộ Icon trực quan, cố định độ rộng cột lưới cân đối; tích hợp 3 báo cáo nhân sự mới (Báo cáo tổng hợp, NV đang làm việc từ ngày đến ngày, NV nghỉ việc từ ngày đến ngày) xuất file Excel (CSV UTF-8).
+- 🐛: Mở rộng trường nhập mã số thuế TNCN txtMSThue cho phép nhập từ 10 đến 20 ký tự (chấp nhận CCCD 12 số hoặc MST chuẩn, không còn bị bắt cứng 13 số); đồng bộ trường macc_hanhnghe_cv2348 sang HRM; khắc phục triệt để lỗi mã hóa font tiếng Việt (mojibake) và co đè layout tại cụm CCHN tab Thông tin cá nhân.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/963
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/945
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/923
+- 📗: CSDL bảng current.dmnhanvien bổ sung ngaycap_cchn (date), noicap_cchn (varchar 255), phamvihanhnghe (varchar 500); tạo bảng mới hrm.dinhkem_nhanvien lưu trữ file đính kèm dạng bytea. Thực hiện theo mô tả [Mô tả cập nhật MST TNCN, bổ sung CCHN, đính kèm tệp tin và báo cáo nhân sự HRM](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/HRM/Mo-ta-hrm-issue-963-945-923.md).
+- 📕: Phân hệ Quản lý Nhân sự (HRM) được nâng cấp toàn diện: Hồ sơ nhân viên quản lý chính xác MST và Chứng chỉ hành nghề; hỗ trợ lưu trữ tệp đính kèm điện tử và cung cấp đầy đủ các mẫu báo cáo thống kê nhân sự cho phòng TCCB.
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-963/debug-image-hrm-frmnhanvien-mst-tncn-proof.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-963/debug-image-hrm-frmnhanvien-cchn-layout-proof.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-963/debug-image-hrm-frmdinhkem-cchn-hdld-proof.png)
+
 ## [v.3.26.1014.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610140-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610140-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610140-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [HosHRM.DataAccess][HosHrm] Chuẩn hóa toàn diện xử lý OID theo TOLAPTRINH Issue #161 qua ClsSqlOidHelper (OTH.Common); đồng bộ cấu hình CSDL sequence id và xử lý xóa lương an toàn.
 - 🐛: [HosHRM.DataAccess][HosHrm] Khắc phục triệt để lỗi Thêm lương (not-null constraint id / InvalidCastException) và lỗi Xóa lương (operator does not exist: oid = numeric / thiếu bind objLuong.luong.oid) tại Tab Quá trình hưởng lương.
