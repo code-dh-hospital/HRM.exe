@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.26.1016.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610160-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610160-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610160-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Đóng gói và phát hành bản dựng HRM.EXE mới nhất tích hợp lưới Janus GridEX có hỗ trợ lọc/tìm kiếm và khóa edit cho form kết quả báo cáo nhân sự, khắc phục lỗi font chữ báo cáo.
+- 🐛: Phục vụ phản hồi kiểm thử tại comment 49141 của issue #923; hoàn trả nguyên trạng form FrmNhanVien; nâng cấp FrmKetQuaBaoCaoNhanSu sang GridEX Janus.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/923
+
 ## [v.3.26.1015.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610150-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610150-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610150-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Đóng gói và phát hành bản dựng HRM.EXE mới nhất tích hợp sửa lỗi giao diện đính kèm HĐLĐ và chuẩn hóa font chữ tiếng Việt các báo cáo nhân sự.
 - 🐛: Khắc phục nút đính kèm HĐLĐ bị ô Ngày hiệu lực đè khuất và lỗi font chữ các menu tùy chọn in, kết quả báo cáo.
