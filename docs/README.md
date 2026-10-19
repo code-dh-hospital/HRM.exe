@@ -6,6 +6,24 @@
 
 #
 
+## [v.3.26.1019.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610190-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610190-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610190-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Đóng gói và phát hành bản dựng HRM.EXE mới nhất tích hợp UITabPage "thoiviec", đồng bộ dự phòng Họ tên và nâng cấp báo cáo nhân viên nghỉ việc.
+- 🐛: Triệt tiêu vĩnh viễn ngoại lệ InvalidCastException DBNull khi mở form nhân viên; khắc phục lỗi ô Họ lót và Tên bị trắng khi nhấn Chỉnh; khắc phục lỗi báo cáo nhân viên nghỉ việc không có dữ liệu theo comment #49369 của issue #923.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/923
+- 📗: current.dmnhanvien, hrm.thoiviec, hrm.dinhkem_nhanvien.
+- 📕: Nâng cao độ ổn định giao diện quản lý nhân viên và báo cáo nhân sự nghỉ việc.
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-923/debug-image-hrm-baocao-nv-nghiviec-204-records-proof.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-923/debug-image-hrm-frmnhanvien-chinh-holot-ten-proof.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-923/debug-image-hrm-frmnhanvien-tab-thoiviec-disabled-proof.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-923/debug-image-hrm-frmnhanvien-tab-thoiviec-proof.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-923/debug-image-hrm-frmdinhkem-cchn-hdld-proof.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-923/debug-image-hrm-frmdinhkem-cchn-proof.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-923/debug-image-hrm-frmmain-fullflow-main.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-923/debug-image-hrm-frmmain-fullflow.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-923/debug-image-hrm-frmnhanvien-cchn-layout-proof.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-923/debug-image-hrm-frmnhanvien-cchn-mst-direct.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-923/debug-image-hrm-frmnhanvien-mst-tncn-proof.png)
+
 ## [v.3.26.1016.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610160-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610160-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610160-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Đóng gói và phát hành bản dựng HRM.EXE mới nhất tích hợp lưới Janus GridEX có hỗ trợ lọc/tìm kiếm và khóa edit cho form kết quả báo cáo nhân sự, khắc phục lỗi font chữ báo cáo.
 - 🐛: Phục vụ phản hồi kiểm thử tại comment 49141 của issue #923; hoàn trả nguyên trạng form FrmNhanVien; nâng cấp FrmKetQuaBaoCaoNhanSu sang GridEX Janus.
