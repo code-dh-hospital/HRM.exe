@@ -6,6 +6,23 @@
 
 #
 
+## [v.3.26.1020.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610200-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Cập nhật DLL liên quan: HosHRM.DataAccess, HosHrm; đồng bộ xử lý Int32 khóa ID và COALESCE chống DBNull cho toàn bộ các tab nhân sự.
+- 🐛: Khắc phục triệt để lỗi thêm/chỉnh/xóa không thành công tại các tab Gia Đình, Phụ Cấp, Khen Thưởng, Kỷ Luật, QT Đào Tạo, Đi Công Tác và Form Bổ Nhiệm thuộc phân hệ HRM.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1052
+- 📗: hrm.bonhiem, hrm.nguoithan, hrm.qthuongpc, hrm.khenthuong, hrm.kyluat, hrm.daotao, hrm.dicongtac.
+- 📕: Quản lý toàn diện các thông tin nhân sự và quyết định bổ nhiệm trên giao diện HRM.exe hoạt động mượt mà, chính xác.
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1052/debug-image-hrm-frmmain-fullflow-main.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1052/debug-image-hrm-frmmain-fullflow.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1052/debug-image-hrm-frmnhanvien-tabgiadinh-direct.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1052/debug-image-hrm-frmbonhiem-tab7-bonhiem.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1052/debug-image-hrm-frmnhanvien-tab1-giadinh.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1052/debug-image-hrm-frmnhanvien-tab2-phucap.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1052/debug-image-hrm-frmnhanvien-tab3-khenthuong.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1052/debug-image-hrm-frmnhanvien-tab4-kyluat.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1052/debug-image-hrm-frmnhanvien-tab5-qtdaotao.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1052/debug-image-hrm-frmnhanvien-tab6-dicongtac.png)
+
 ## [v.3.26.1019.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610190-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610190-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610190-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Đóng gói và phát hành bản dựng HRM.EXE mới nhất tích hợp UITabPage "thoiviec", đồng bộ dự phòng Họ tên và nâng cấp báo cáo nhân viên nghỉ việc.
 - 🐛: Triệt tiêu vĩnh viễn ngoại lệ InvalidCastException DBNull khi mở form nhân viên; khắc phục lỗi ô Họ lót và Tên bị trắng khi nhấn Chỉnh; khắc phục lỗi báo cáo nhân viên nghỉ việc không có dữ liệu theo comment #49369 của issue #923.
