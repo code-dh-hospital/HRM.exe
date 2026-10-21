@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.1021.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610210-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610210-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610210-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [HosHrm] Bổ sung UITabPage "thoiviec" trên FrmNhanVien quản lý thông tin quyết định thôi việc cho nhân viên nghỉ việc (trangthai = '0').
+- 🐛: [HosHrm] Fix lỗi tìm kiếm nhân viên trên lưới FrmNhanVien làm trắng ô Họ lót, Tên khi nhấn Chỉnh và báo pop-up "Chưa nhập tên!". Fix lỗi DataBindings DBNull trên các checkbox FrmNhanVien.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/923
+- 📗: current.dmnhanvien, hrm.thoiviec
+- 📕: Tổng hợp phát hành phân hệ Quản lý Nhân sự HRM.
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-923/debug-image-hrm-frmnhanvien-hoten-nv135-proof.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-923/debug-image-hrm-frmnhanvien-tab-thoiviec-nv135-proof.png)
+
 ## [v.3.26.1020.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610200-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Cập nhật DLL liên quan: HosHRM.DataAccess, HosHrm; đồng bộ xử lý Int32 khóa ID và COALESCE chống DBNull cho toàn bộ các tab nhân sự.
 - 🐛: Khắc phục triệt để lỗi thêm/chỉnh/xóa không thành công tại các tab Gia Đình, Phụ Cấp, Khen Thưởng, Kỷ Luật, QT Đào Tạo, Đi Công Tác và Form Bổ Nhiệm thuộc phân hệ HRM.
