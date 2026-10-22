@@ -6,6 +6,20 @@
 
 #
 
+## [v.3.26.1022.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610220-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610220-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610220-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [HosHrm] Bổ sung chức năng cập nhật thông tin nhân viên (chỉ cập nhật, không thêm mới; không cập nhật manv, holot, ten, madv) và hợp đồng lao động (cập nhật & thêm mới) từ Excel; xuất tập tin Excel mẫu đổi màu phân biệt các cột không cập nhật trên FrmNhanVien.
+- 🐛: None
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/946
+- 📗: CSDL `current.dmnhanvien` (3 tab: Cá nhân, Khác, Lý lịch; bảo toàn manv, holot, ten, madv), `hrm.hopdongld` (2 tab: Hợp đồng LĐ, Hợp đồng LĐ tt), `hrm.nhatky` (ghi log thao tác).
+- 📕: Vào Quản lý Nhân sự -> Danh mục -> Nhân viên -> Click nút [Cập nhật dữ liệu từ tập tin Excel] để nạp dữ liệu cập nhật từ file Excel vào CSDL (bảo toàn manv, holot, ten, madv); bấm mũi tên xổ xuống DropDownContextMenu (UIContextMenu) chọn 'Xuất tập tin Excel mẫu' để tải file mẫu kèm dữ liệu hiện có từ lưới với 4 cột không cập nhật được tô màu phân biệt. Chi tiết xem tại [Mo-ta-nhap-nhan-vien-bang-excel-issue-946.md](../../Mo-ta-he-thong/HRM/Mo-ta-nhap-nhan-vien-bang-excel-issue-946.md).
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-946/debug-image-hrm-frmnhanvien-excel-direct.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-946/debug-image-hrm-frmmain-fullflow.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-946/debug-image-hrm-frmmain-fullflow-main.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-946/debug-image-hrm-excel-mau-nhanvien.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-946/debug-image-hrm-frmnhanvien-excel-menu.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-946/debug-image-hrm-frmnhanvien-thongtin-capnhat.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-946/debug-image-hrm-thongbao-capnhat-xmsgbox.png)
+
 ## [v.3.26.1021.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610210-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610210-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHRMexe%2F32610210-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [HosHrm] Bổ sung UITabPage "thoiviec" trên FrmNhanVien quản lý thông tin quyết định thôi việc cho nhân viên nghỉ việc (trangthai = '0').
 - 🐛: [HosHrm] Fix lỗi tìm kiếm nhân viên trên lưới FrmNhanVien làm trắng ô Họ lót, Tên khi nhấn Chỉnh và báo pop-up "Chưa nhập tên!". Fix lỗi DataBindings DBNull trên các checkbox FrmNhanVien.
